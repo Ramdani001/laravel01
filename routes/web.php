@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\CssSelector\Node\FunctionNode;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+    
+});
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/search-result', Function () {
+    return view('search-result');
 });
