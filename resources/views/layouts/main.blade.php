@@ -13,7 +13,7 @@
 
       @include('partials.navbar')
       @include('partials.iconsidebar')
-      @include('partials.sidebar')
+      {{-- @include('partials.sidebar') --}}
       @include('partials.topsides')
 
 

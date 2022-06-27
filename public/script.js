@@ -24,16 +24,30 @@ function Dropdown() {
   document.getElementById('arrow').classList.toggle('rotate-0');
 }
 
-Dropwdown()
-
 function opensidebar() {
-  document.getElementById('open-sidebar').classList.remove('hidden')
-  document.getElementById('icon-side').classList.add('lg:hidden')
+  
+  document.getElementById('header2').classList.toggle('md:ml-[230px]')
+  document.getElementById('header2').classList.toggle('md:ml-[65px]')
 
-  document.querySelector('main').classList.add('md:ml-[240px]')
-  document.querySelector('main').classList.remove('md:ml-24')
+  document.querySelector('main').classList.toggle('md:ml-[250px]')
+  document.querySelector('main').classList.toggle('md:ml-[65px]')
 
-  document.querySelector('#header2').classList.add('md:ml-[230px]')
-  document.querySelector('#header2').classList.remove('md:ml-20')
+
+  document.getElementById('main-side').classList.toggle('w-[240px]')
+  document.getElementById('main-side').classList.toggle('w-[100px]')
+
+  document.getElementById('text-sides').classList.toggle('hidden')
+  document.getElementById('text-sides1').classList.toggle('hidden')
+  
+  document.getElementById('text-sides2').classList.toggle('hidden')
+
+  document.getElementById('text-sides3').classList.toggle('hidden')
+  
+  
+  document.getElementById('text-sides4').classList.toggle('hidden')
+
+  document.getElementById('text-sides5').classList.toggle('hidden')
+  document.getElementById('text-sides6').classList.toggle('hidden')
+  
 
 }

@@ -13,9 +13,9 @@
     <!-- End Btn Search Active -->
   
     <div id="header" class="flex justify-between items-center h-14 mx-4">
-            <div class="ml-3 text-2xl  ">
+            <div id="sides-off" class="ml-3 text-2xl  ">
                 <span class="hidden md:inline cursor-pointer">
-                <i class="fa-solid fa-bars" onclick="opensidebar()"></i>
+                <i class="fa-solid fa-bars" onclick='opensidebar()'></i>
             </span>
                 <a href="/" class="text-3xl -ml-3 md:ml-2 curdor-pointer">Affiliate</a>
             </div>

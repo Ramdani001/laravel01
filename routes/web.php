@@ -16,8 +16,8 @@ use Symfony\Component\CssSelector\Node\FunctionNode;
 
 Route::get('/', function () {
     return view('home');
-    
 });
+
 Route::get('/login', function () {
     return view('login');
 });
@@ -25,3 +25,9 @@ Route::get('/login', function () {
 Route::get('/search-result', Function () {
     return view('search-result');
 });
+
+Route::get('/detail-video', function() {
+    return view('detail-video');
+});
+
+?>
