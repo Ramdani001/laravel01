@@ -1,4 +1,4 @@
-<header class="bg-white divide-y ml-18 border-b fixed inset-x-0">
+<header class="bg-white divide-y ml-18 border-b fixed inset-x-0 z-20">
   
   <!-- Btn Search Active -->
   <div id="btn-search-active" class="hidden items-center justify-center px-2  bg-gray-200">
