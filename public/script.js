@@ -26,15 +26,15 @@ function Dropdown() {
 
 function opensidebar() {
   
-  document.getElementById('header2').classList.toggle('md:ml-[230px]')
   document.getElementById('header2').classList.toggle('md:ml-[65px]')
+  document.getElementById('header2').classList.toggle('md:ml-[230px]')
 
-  document.querySelector('main').classList.toggle('md:ml-[250px]')
   document.querySelector('main').classList.toggle('md:ml-[65px]')
+  document.querySelector('main').classList.toggle('md:ml-[250px]')
 
 
+  document.getElementById('main-side').classList.toggle('w-[60px]')
   document.getElementById('main-side').classList.toggle('w-[240px]')
-  document.getElementById('main-side').classList.toggle('w-[100px]')
 
   document.getElementById('text-sides').classList.toggle('hidden')
   document.getElementById('text-sides1').classList.toggle('hidden')

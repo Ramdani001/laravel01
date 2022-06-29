@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<main class=" ml-0 md:ml-[250px] md:mr-5 pt-20 md:pt-24">
+<main class=" ml-0 md:ml-[65px] md:mr-5 pt-20 md:pt-24 duration-300">
         <div class="border-b-4 border-gray-300 border-opacity-75 sm:space-x-5 space-y-8 pb-12">
             <div class=" grid grid-cols-1  space-y-8 sm:grid-cols-2 md:grid-cols-4  row-gap-10 col-gap-2">
                 <div class="w-68 ml-2  mt-8 cursor-pointer">

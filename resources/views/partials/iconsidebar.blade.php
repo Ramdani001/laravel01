@@ -1,14 +1,14 @@
 <!-- Icon Sidebar -->
 
 <aside id="icon-side" class="hidden md:fixed top-0 w-18 h-screen bg-white py-3 md:flex items-center flex-col mt-[56px] text-gray-700">
-  <div id="main-side" class=" w-[240px] duration-300  relative">
+  <div id="main-side" class=" w-[60px] duration-300  relative">
     <div class="p-2.5 mt-1 flex items-center py-3 hover:bg-gray-200 rounded-md px-4 duration-300 cursor-pointer">
         <i class="fa-solid fa-house"></i>
-        <span id="text-sides" class="ml-4 text-md cursor-pointer">Beranda</span>
+        <span id="text-sides" class="ml-4 hidden text-md cursor-pointer duration-300">Beranda</span>
     </div>
     <div class="p-2.5 mt-1 flex items-center py-3 hover:bg-gray-200 rounded-md px-4 duration-300 cursor-pointer" onclick="Dropdown()">
         <i class="fa-solid fa-calendar-check"></i>
-        <div id="text-sides1" class="">
+        <div id="text-sides1" class="hidden duration-300">
             <span class="ml-4 text- cursor-pointer mr-4">Kategori</span>
         
             <i class="fa-solid fa-angle-up" id="arrow"></i>
@@ -16,7 +16,7 @@
         
     </div>
 
-    <div class="text-left text-sm font-thin mt-2 w-4/5 mx-auto hidden" id="submenu">
+    <div class="text-left text-sm font-thin mt-2 w-4/5 mx-auto hidden duration-300" id="submenu">
         <h1 class="cursor-pointer p-2 hover:bg-gray-400 rounded-md mt-1"> <a href="">Shopee</a></h1>
         <h1 class="cursor-pointer p-2 hover:bg-gray-400 rounded-md mt-1 "> <a href=" ">Shopee</a>
         </h1>
@@ -26,23 +26,23 @@
 
     <div id="main-sides2" class="p-2.5 -ml-3 mt-1 flex full items-center py-3 hover:bg-gray-200 rounded-md px-4 duration-300 cursor-pointer ">
         <img src="images/icon/icons-subcription.png" class="w-6 ml-2 mr-2" alt="">
-        <span id="text-sides2" class="text-md cursor-pointer ">Subscription</span>
+        <span id="text-sides2" class="text-md cursor-pointer hidden duration-300">Subscription</span>
     </div>
     <div id="main-sides3" class="p-2.5 mt-1 flex items-center py-3 hover:bg-gray-200 rounded-md px-4 duration-300 cursor-pointer ">
         <i class="fa-solid fa-compass"></i>
-        <span id="text-sides3" class=" text-md cursor-pointer ml-2">Explorer</span>
+        <span id="text-sides3" class=" text-md hidden cursor-pointer ml-2 duration-300">Explorer</span>
     </div>
     <div id="main-sides4" class="p-2.5 mt-1 -ml-2 flex items-center py-3 hover:bg-gray-200 rounded-md px-4 duration-300 cursor-pointer ">
         <img src="images/icon/icons-colection.png" class="w-6 mr-2" alt="">
-        <span id="text-sides4" class=" text-md cursor-pointer ">Koleksi</span>
+        <span id="text-sides4" class="hidden text-md cursor-pointer duration-300">Koleksi</span>
     </div>
     <hr class="my-2 text-gray-600 ">
-    <div id="text-sides5" class="w-[250px] p-4">
+    <div id="text-sides5" class="w-[250px] hidden p-4 duration-300">
         <p class="">
             Login untuk memberi tanda suka pada video, memberi komentar, dan subscribe
         </p>
     </div>
-    <button id="text-sides6" type="button" class="ml-16 mt-1 border px-5 py-1 border-blue-500 text-blue-500">
+    <button id="text-sides6" type="button" class="ml-16 mt-1 hidden border duration-300 px-5 py-1 border-blue-500 text-blue-500">
         <a href="/login">LOGIN</a>
     </button>
     

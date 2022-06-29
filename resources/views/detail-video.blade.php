@@ -2,10 +2,11 @@
 
 @section('detail-video')
     <!--Content Detail-->
-    <div class="w-full md:w-[700px] bg-slate-50 h-screen md:mt-20 md:absolute">
+    <div class="w-full md:w-[670px] bg-slate-50 h-[450px] pt-[110px] md:pt-0 md:ml-[65px] md:mt-[120px] md:absolute pb-12">
         <div class="p-1 md:p-5">
-            <div class="w-full h-full bg-gray-600 flex-shrink-0 overflow-hidden" class="object-cover">
-                <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="" class="object-cover h-full">
+            <div class="w-full h-[300px] md:h-[500px] bg-gray-600 flex-shrink-0 overflow-hidden">
+                <iframe src="https://www.youtube.com/embed/NRzncAwg_38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="object-cover w-full h-full" allowfullscreen></iframe>
+                {{-- <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="" class="object-cover h-full"> --}}
             </div>
 
             <!-- Views -->
@@ -17,7 +18,7 @@
             <!-- Views -->
 
             <!-- Judul Video -->
-            <div class="absolute ml-[140px] -mt-6 md:text-2xl md:ml-[220px] md:-mt-[15px]">
+            <div class="absolute ml-[120px] -mt-6 md:text-2xl md:ml-[190px] md:-mt-[15px]">
                 <span>
                         Shopee Affiliate
                     </span>
@@ -25,7 +26,7 @@
             <!-- End Judul Video -->
 
             <!-- Button Join -->
-            <div class="mt-2 md:absolute md:text-2xl md:ml-[410px] md:-mt-[25px] bg-red-600 text-white text-center">
+            <div class="mt-2 md:absolute md:text-2xl md:ml-[380px] md:-mt-[25px] bg-red-600 text-white text-center">
                 <button type="submit" name="join" class="px-[100px] py-2">
                     JOIN
                 </button>
@@ -85,21 +86,22 @@
         </div>
     </div>
 
-    <main class="md:float-right mt-10 md:mt-20 md:w-[550px] md:mr-[65x]">
+    <main class="md:float-right mt-[370px] md:mt-[120px] md:w-[550px] md:mr-[65x] pb-12">
 
-        <div class="bg-gray-500 text-2xl text-white font-bold py-1">
+        <div class="bg-gray-500 text-2xl text-white font-bold py-1 text-center md:m-2">
             <span class="p-4">KELAS BELAJAR</span>
         </div>
 
 
-        <div class="bg-slate-50 mt-2 ">
+        <div class="bg-slate-50 mt-2 md:mt-4 ">
             <div class=" grid grid-cols-1 md:grid-cols-2 md:space-y-2 md:p-2 row-gap-10 col-gap-2">
 
                 <!-- Video List 1 -->
 
                 <div class="md:ml-2 mt-1 cursor-pointer">
                     <div class="w-full h-full md:w-[250px] md:h-[150px] flex-shrink-0 overflow-hidden" class="object-cover">
-                        <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="" class="object-cover w-full h-full">
+                        <a href="/detail-video">
+                            <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="" class="object-cover w-full h-full"></a>
                     </div>
 
                     <!-- <div class="h-[110px] w-full bg-gray-700 overflow-hidden">
@@ -114,7 +116,7 @@
                     </div>
                 </div>
 
-                <!-- End Video List 1 -->
+                <!-- End Video List 1 --> 
                 <!-- Video List 1 -->
 
                 <div class="md:ml-2 mt-1 cursor-pointer">

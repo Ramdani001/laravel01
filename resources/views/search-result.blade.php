@@ -15,7 +15,11 @@
 
                 <div class=" ml-1 ">
                     <div class="w-[200px]  md:w-[375px] g-gray-700 overflow-hidden " data-toggle="modal " data-target="#myModal ">
-                        <iframe class="w-[200px] md:w-[375px] md:h-[250px]" src="https://www.youtube.com/embed/xxxmemCgR5U " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                        <a href="/detail-video">
+                            <img class="w-[200px] md:w-[375px] h-[150px] md:h-[250px]" src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60 " alt=" ">
+                        </a>
+                        
+                        {{-- <iframe class="w-[200px] md:w-[375px] md:h-[250px]" src="https://www.youtube.com/embed/xxxmemCgR5U " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe> --}}
                     </div>
 
                 </div>
